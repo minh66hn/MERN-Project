@@ -1,0 +1,28 @@
+POST http://localhost:8000/api/auth/register 
+content-type: application/json
+
+{
+    "username":"thutrang1",
+    "password":"123as"
+}
+
+###
+
+POST http://localhost:8000/api/auth/login
+content-type: application/json
+
+{
+    "username":"abc",
+    "password":"123as"
+}
+
+###
+POST http://localhost:8000/api/posts
+content-type: application/json
+
+{
+      "title":"balanasd",
+      "description":"only one trang",
+      "url":"https://www.facebook.com/profile.php?id=100040178209261",
+      "status": "TO LEARN"
+}
