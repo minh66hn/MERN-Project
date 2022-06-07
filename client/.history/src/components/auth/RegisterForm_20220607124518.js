@@ -1,7 +1,5 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
-import { Link } from "react-router-dom";
+
 const RegisterForm = () => {
   return (
     <div className="form-group">
@@ -27,25 +25,15 @@ const RegisterForm = () => {
             className="col-xs-3"
           />
         </Form.Group>
-        <Form.Group>
-          <Form.Label>ConfirmPassword</Form.Label>
-          <Form.Control
-            type="Confirm Password"
-            placeholder="Confirm Password is here"
-            name="confirmPassword"
-            required
-            className="col-xs-3"
-          />
-        </Form.Group>
         <Button variant="success" type="submit" className="button-1">
           Submit
         </Button>
       </Form>
       <p>
-        Already an account?
-        <Link to="/login">
+        Don't have an account?
+        <Link to="/register">
           <Button variant="info" size="sm" className="ml-2">
-            Login
+            Register
           </Button>
         </Link>
       </p>

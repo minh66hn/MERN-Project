@@ -45,7 +45,7 @@ const RegisterForm = () => {
         Already an account?
         <Link to="/login">
           <Button variant="info" size="sm" className="ml-2">
-            Login
+            Register
           </Button>
         </Link>
       </p>

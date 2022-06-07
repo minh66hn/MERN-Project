@@ -28,11 +28,11 @@ const RegisterForm = () => {
           />
         </Form.Group>
         <Form.Group>
-          <Form.Label>ConfirmPassword</Form.Label>
+          <Form.Label>Password</Form.Label>
           <Form.Control
-            type="Confirm Password"
-            placeholder="Confirm Password is here"
-            name="confirmPassword"
+            type="confirm"
+            placeholder="Password is here"
+            name="password"
             required
             className="col-xs-3"
           />
@@ -42,10 +42,10 @@ const RegisterForm = () => {
         </Button>
       </Form>
       <p>
-        Already an account?
-        <Link to="/login">
+        Don't have an account?
+        <Link to="/register">
           <Button variant="info" size="sm" className="ml-2">
-            Login
+            Register
           </Button>
         </Link>
       </p>

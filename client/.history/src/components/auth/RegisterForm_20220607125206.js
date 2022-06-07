@@ -42,10 +42,10 @@ const RegisterForm = () => {
         </Button>
       </Form>
       <p>
-        Already an account?
-        <Link to="/login">
+        Already have an account?
+        <Link to="/register">
           <Button variant="info" size="sm" className="ml-2">
-            Login
+            Register
           </Button>
         </Link>
       </p>

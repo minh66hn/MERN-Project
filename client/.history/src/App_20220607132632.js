@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Landing from "./components/layout/Landing";
 import Auth from "./view/Auth";
+import { render } from "react-dom";
 import ReactDOM from "react-dom";
 function App() {
   return ReactDOM.render(
